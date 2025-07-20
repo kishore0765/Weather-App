@@ -1,0 +1,5 @@
+# Dependencies and build files
+/backend/node_modules
+
+# Environment variables (contains secrets)
+.env
