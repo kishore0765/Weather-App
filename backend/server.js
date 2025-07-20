@@ -3,7 +3,7 @@ const express = require('express');
 const axios = require('axios');
 const path = require('path');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // --- KEY CHANGE ---
 // Serve static files from the 'frontend' folder
